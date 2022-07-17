@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/otanim/earthquake-signal-transmitter/issues"
   },
-  "homepage": "https://github.com/otanim/earthquake-signal-transmitter#readme"
+  "homepage": "https://github.com/otanim/earthquake-signal-transmitter#readme",
+  "dependencies": {
+    "onoff": "^6.0.3"
+  }
 }
