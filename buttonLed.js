@@ -17,4 +17,6 @@ function unexportOnClose() { //function to run when exiting program
   pushButton.unexport(); // Unexport Button GPIO to free resources
 }
 
+LED.writeSync(1); //debug
+
 process.on('SIGINT', unexportOnClose); //function to run when user closes using ctrl+c
