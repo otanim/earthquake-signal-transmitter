@@ -8,7 +8,7 @@ pushButton.watch( (err, value) => { //Watch for hardware interrupts on pushButto
   }
 
   console.log(`BUTTON STATE: ${value}`);
-  LED.writeSync(1); //turn LED on or off depending on the button state (0 or 1)
+  LED.writeSync(value); //turn LED on or off depending on the button state (0 or 1)
 });
 
 function unexportOnClose() { //function to run when exiting program
